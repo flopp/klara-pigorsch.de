@@ -1,6 +1,6 @@
 function main() {
     switch_color();
-    const switcher = document.getElementById("color-switcher");
+    const switcher = document.getElementById("hero");
     switcher.onclick = function () {
         switch_color();
     };
