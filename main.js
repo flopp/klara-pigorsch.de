@@ -34,4 +34,29 @@ function switch_color() {
 
     hero.classList.add(random_color);
     hero.classList.remove(current_color);
+
+    document.head.querySelector('meta[name="theme-color"]').content = color_to_hex(random_color);
+}
+
+function color_to_hex(color) {
+    switch (color) {
+        case "is-info":
+            return "#3298dc";
+        case "is-primary":
+            return "#00d1b2";
+        case "is-danger":
+            return "#f14668";
+        case "is-link":
+            return "#3273dc";
+        case "is-success":
+            return "#48c774";
+        case "is-warning":
+            return "#ffdd57";
+        case "is-dark":
+            return "#363636";
+        case "is-light":
+            return "#f5f5f5";
+    }
+
+    return "#48c774";
 }
