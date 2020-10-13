@@ -1,0 +1,19 @@
+body {
+    overflow: hidden;
+}
+
+body.color1 {
+    background: linear-gradient(135deg, rgba(32,32,64,1) 0%, rgba(176,48,176,1) 100%);
+}
+
+body.color2 {
+	background: linear-gradient(135deg, rgba(15,48,87,1) 0%, rgba(0,136,145,1) 100%);
+}
+
+body.color3 {
+	background: linear-gradient(135deg, rgba(6,84,70,1) 0%, rgba(21,132,103,1) 100%);
+}
+
+body.color4 {
+	background: linear-gradient(135deg, rgba(129,0,0,1) 0%, rgba(207,27,27,1) 100%);
+}
